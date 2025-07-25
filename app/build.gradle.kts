@@ -40,6 +40,8 @@ android {
 dependencies {
     // CameraX core library
     val cameraxVersion = "1.3.0"
+    // TensorFlow Lite Task Library for vision
+    implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.3")
     implementation("androidx.camera:camera-core:${cameraxVersion}")
     implementation("androidx.camera:camera-camera2:${cameraxVersion}")
     implementation("androidx.camera:camera-lifecycle:${cameraxVersion}")
