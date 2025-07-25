@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.example.retina"
     compileSdk = 36
-
+      buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.example.retina"
         minSdk = 24
